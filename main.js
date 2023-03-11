@@ -9,7 +9,7 @@ const cardsContainer = document.querySelector('.cards-container');
 
 menuEmail.addEventListener('click', toggleDesktopMenu);
 menuHamIcon.addEventListener('click', toggleMobileMenu);
-menuCarritoIcon.addEventListener('click', toggleCarritoAside)
+menuCarritoIcon.addEventListener('click', toggleCarritoAside);
 
 
 function toggleDesktopMenu() {
@@ -17,7 +17,6 @@ function toggleDesktopMenu() {
     if (!isAsideclosed){
         aside.classList.toggle('inactive');
     }
-
     desktopMenu.classList.toggle('inactive');
 }
 
@@ -39,8 +38,6 @@ function toggleCarritoAside(){
         }
 
     aside.classList.toggle('inactive')
-
-    
 }
 
 const productList = [];
